@@ -1,0 +1,3 @@
+<launch>
+    <node name="camera_ctrl_server" pkg="canon_camera" type="camera_ctrl_server.py" />
+</launch>
