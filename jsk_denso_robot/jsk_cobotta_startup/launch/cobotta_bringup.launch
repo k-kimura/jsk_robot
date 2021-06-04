@@ -11,4 +11,6 @@
   <include file="$(find bcap_service)/launch/bcap_service.launch">
     <arg name="ip_address" value="$(arg ip_address)"/>
   </include>
+
+  <include file="$(find canon_camera)/launch/camera_ctrl_server.launch" />
 </launch>
